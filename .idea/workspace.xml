@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9be29cb-8a17-436a-8491-c74230f2e47b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/CountDownLatchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/CountDownLatchHomework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/CountryEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/SpringEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/BlockingQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/ProdConsumer_TraditionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/SynchronousQueueDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/facecontent/com/ymd/face/MyData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/facecontent/com/ymd/face/VolatileDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ymd/face/VolatileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ymd/face/volataile/VolatileDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,15 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ymd/face/thread/SingletonDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/CountDownLatchDemo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -51,11 +36,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/BlockingQueueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+            <state relative-caret-position="164">
+              <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/SynchronousQueueDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/ProdConsumer_TraditionDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,6 +165,8 @@
         <option value="$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/SpringEnum.java" />
         <option value="$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/CountDownLatchHomework.java" />
         <option value="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/BlockingQueueDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/SynchronousQueueDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/ProdConsumer_TraditionDemo.java" />
       </list>
     </option>
   </component>
@@ -228,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BlockingQueueDemo">
+  <component name="RunManager" selected="Application.ProdConsumer_TraditionDemo">
     <configuration name="BlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="MAIN_CLASS_NAME" value="com.ymd.face.BlockingQueue.BlockingQueueDemo" />
@@ -274,14 +285,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadWriteDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ProdConsumer_TraditionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.ymd.face.Lock.ReadWriteLock.ReadWriteDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.ymd.face.BlockingQueue.ProdConsumer_TraditionDemo" />
       <module name="facecontent" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ymd.face.Lock.ReadWriteLock.*" />
+          <option name="PATTERN" value="com.ymd.face.BlockingQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -289,14 +300,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SynchronousQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.ymd.face.volataile.VolatileDemo01" />
+      <option name="MAIN_CLASS_NAME" value="com.ymd.face.BlockingQueue.SynchronousQueueDemo" />
       <module name="facecontent" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ymd.face.volataile.*" />
+          <option name="PATTERN" value="com.ymd.face.BlockingQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -339,11 +350,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProdConsumer_TraditionDemo" />
+        <item itemvalue="Application.SynchronousQueueDemo" />
         <item itemvalue="Application.BlockingQueueDemo" />
         <item itemvalue="Application.CountDownLatchHomework" />
         <item itemvalue="Application.CountDownLatchDemo" />
-        <item itemvalue="Application.VolatileDemo01" />
-        <item itemvalue="Application.ReadWriteDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -369,12 +380,12 @@
       <workItem from="1574599691652" duration="2054000" />
       <workItem from="1574607898593" duration="1547000" />
       <workItem from="1574647979877" duration="14000" />
-      <workItem from="1574695345814" duration="1125000" />
+      <workItem from="1574695345814" duration="3110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16700000" />
+    <option name="totallyTimeSpent" value="18685000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -389,14 +400,14 @@
     <frame x="-6" y="0" width="997" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.41908714" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.41853034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40114614" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40114614" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -405,7 +416,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.44334278" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4426934" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -417,14 +428,14 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19101876" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.41853034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.07223796" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40114614" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -433,7 +444,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.13180515" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4426934" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -572,8 +583,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/BlockingQueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+        <state relative-caret-position="164">
+          <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/SynchronousQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/ProdConsumer_TraditionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
