@@ -5,41 +5,29 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 class ShareData {//资源类
-    private int number = 0;
-    private Lock lock = new ReentrantLock();
-    private Condition condition = lock.newCondition();
+    int number = 0;
+    Lock lock = new ReentrantLock();
+    Condition condition = lock.newCondition();
 
-    public void increment() {
-
+    public void increment() throws InterruptedException {
         lock.lock();
-        try {
-            //1.判断
-            while (number != 0) {
-                //等待，不能生产
-                condition.await();
-            }
-            //2.干活
-            number++;
-            System.out.println(Thread.currentThread().getName() + "\t" + number);
-            condition.signalAll();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } finally {
-            lock.unlock();
+
+        while (number != 0) {
+            condition.await();
         }
+        number++;
+        System.out.println(Thread.currentThread().getName() + "\t" + number);
+        condition.signalAll();
+
+        lock.unlock();
     }
 
-    public void decrement(){
+    public void decrement() throws InterruptedException {
         lock.lock();
 
-        while(number == 0){
-            try {
-                condition.await();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+        while (number == 0) {
+            condition.await();
         }
-
         number--;
         System.out.println(Thread.currentThread().getName()+"\t"+number);
         condition.signalAll();
@@ -48,20 +36,49 @@ class ShareData {//资源类
     }
 }
 
+//    一个初始值为0的变量 两个线程交替操作 一个加1 一个减1来5轮
 public class ProdConsumer_TraditionDemo {
     public static void main(String[] args) {
         ShareData shareData = new ShareData();
 
         new Thread(()->{
             for(int i=1; i<=5; i++){
-                shareData.increment();
+                try {
+                    shareData.increment();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
         },"AA").start();
 
         new Thread(()->{
             for(int i=1; i<=5; i++){
-                shareData.decrement();
+                try {
+                    shareData.decrement();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
         },"BB").start();
+
+        new Thread(()->{
+            for(int i=1; i<=5; i++){
+                try {
+                    shareData.increment();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        },"CC").start();
+
+        new Thread(()->{
+            for(int i=1; i<=5; i++){
+                try {
+                    shareData.decrement();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        },"DD").start();
     }
 }

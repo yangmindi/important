@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9be29cb-8a17-436a-8491-c74230f2e47b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/ProdConsumer_TraditionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/SynchronousQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/CyclicBarrierDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/ProdConsumer_TraditionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/ProdConsumer_TraditionDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,15 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/CountDownLatchDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/CountDownLatchHomework.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,11 +51,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/ProdConsumer_TraditionDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+            <state relative-caret-position="234">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/CyclicBarrierDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,12 +170,13 @@
         <option value="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/BlockingQueueDemo.java" />
         <option value="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/SynchronousQueueDemo.java" />
         <option value="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/ProdConsumer_TraditionDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/CyclicBarrierDemo.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="1247" />
+    <option name="width" value="977" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -205,7 +209,7 @@
               <item name="facecontent" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="face" type="462c0819:PsiDirectoryNode" />
-              <item name="BlockingQueue" type="462c0819:PsiDirectoryNode" />
+              <item name="AlterNumLock" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -239,7 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProdConsumer_TraditionDemo">
+  <component name="RunManager" selected="Application.CyclicBarrierDemo">
     <configuration name="BlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="MAIN_CLASS_NAME" value="com.ymd.face.BlockingQueue.BlockingQueueDemo" />
@@ -255,9 +259,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="CountDownLatchHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.ymd.face.AlterNumLock.CountDownLatchDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.ymd.face.AlterNumLock.CountDownLatchHomework" />
       <module name="facecontent" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -270,9 +274,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountDownLatchHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.ymd.face.AlterNumLock.CountDownLatchHomework" />
+      <option name="MAIN_CLASS_NAME" value="com.ymd.face.AlterNumLock.CyclicBarrierDemo" />
       <module name="facecontent" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -350,11 +354,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CyclicBarrierDemo" />
         <item itemvalue="Application.ProdConsumer_TraditionDemo" />
         <item itemvalue="Application.SynchronousQueueDemo" />
         <item itemvalue="Application.BlockingQueueDemo" />
         <item itemvalue="Application.CountDownLatchHomework" />
-        <item itemvalue="Application.CountDownLatchDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -380,12 +384,12 @@
       <workItem from="1574599691652" duration="2054000" />
       <workItem from="1574607898593" duration="1547000" />
       <workItem from="1574647979877" duration="14000" />
-      <workItem from="1574695345814" duration="3110000" />
+      <workItem from="1574695345814" duration="4281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18685000" />
+    <option name="totallyTimeSpent" value="19856000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -397,17 +401,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="997" height="830" extended-state="0" />
+    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.41853034" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.41770402" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40114614" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.14589235" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -416,7 +420,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4426934" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.48951048" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -428,14 +432,14 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.41853034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.41770402" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40114614" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.14589235" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -444,7 +448,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4426934" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.48951048" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -603,8 +607,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/ProdConsumer_TraditionDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+        <state relative-caret-position="234">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/CyclicBarrierDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
