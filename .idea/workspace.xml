@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9be29cb-8a17-436a-8491-c74230f2e47b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/CyclicBarrierDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/ProdConsumer_TraditionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/ProdConsumer_TraditionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/SemaphoneDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/CyclicBarrierDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
+            <state relative-caret-position="208">
               <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -75,14 +73,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/SpringEnum.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/SemaphoneDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="449">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
               <folding>
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,6 +168,7 @@
         <option value="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/SynchronousQueueDemo.java" />
         <option value="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/ProdConsumer_TraditionDemo.java" />
         <option value="$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/CyclicBarrierDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/SemaphoneDemo.java" />
       </list>
     </option>
   </component>
@@ -243,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CyclicBarrierDemo">
+  <component name="RunManager" selected="Application.SemaphoneDemo">
     <configuration name="BlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="MAIN_CLASS_NAME" value="com.ymd.face.BlockingQueue.BlockingQueueDemo" />
@@ -252,21 +250,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ymd.face.BlockingQueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountDownLatchHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.ymd.face.AlterNumLock.CountDownLatchHomework" />
-      <module name="facecontent" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ymd.face.AlterNumLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -297,6 +280,21 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ymd.face.BlockingQueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SemaphoneDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="MAIN_CLASS_NAME" value="com.ymd.face.AlterNumLock.SemaphoneDemo" />
+      <module name="facecontent" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ymd.face.AlterNumLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -354,11 +352,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SemaphoneDemo" />
         <item itemvalue="Application.CyclicBarrierDemo" />
         <item itemvalue="Application.ProdConsumer_TraditionDemo" />
         <item itemvalue="Application.SynchronousQueueDemo" />
         <item itemvalue="Application.BlockingQueueDemo" />
-        <item itemvalue="Application.CountDownLatchHomework" />
       </list>
     </recent_temporary>
   </component>
@@ -384,12 +382,12 @@
       <workItem from="1574599691652" duration="2054000" />
       <workItem from="1574607898593" duration="1547000" />
       <workItem from="1574647979877" duration="14000" />
-      <workItem from="1574695345814" duration="4281000" />
+      <workItem from="1574695345814" duration="4583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19856000" />
+    <option name="totallyTimeSpent" value="20158000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -411,7 +409,7 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.14589235" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25787964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -420,7 +418,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.48951048" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.29799426" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -439,7 +437,7 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.14589235" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25787964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -448,7 +446,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.48951048" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.29799426" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -617,8 +615,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/CyclicBarrierDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
+        <state relative-caret-position="208">
           <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/SemaphoneDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
