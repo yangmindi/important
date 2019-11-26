@@ -31,7 +31,7 @@ public class VolatileDemo{
                     myData.addPlusPlus();
                     myData.addMyAtomic();
                 }
-            },String .valueOf(i)).start();
+            },String.valueOf(i)).start();
         }
 
         //需要等待上面20个线程全部计算完成之后，再用main线程取得最终的结果值是多少？
