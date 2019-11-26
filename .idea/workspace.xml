@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9be29cb-8a17-436a-8491-c74230f2e47b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ymd/face/Lock/ReenterLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ymd/face/Lock/SpinLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/ProdConsumerBlockQueueDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/BlockingQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/BlockingQueueDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,12 +21,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ymd/face/Lock/ReadWriteLock/ReadWriteDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+            <state relative-caret-position="1560">
+              <caret line="60" column="43" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1171#1172#0" expanded="true" />
                 <element signature="e#1198#1199#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/ProdConsumerBlockQueueDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1778#1779#0" expanded="true" />
+                <element signature="e#1810#1811#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/BlockingQueueDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="54" column="69" selection-start-line="54" selection-start-column="69" selection-end-line="54" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ymd/face/Lock/SpinLockDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+            <state relative-caret-position="208">
+              <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,7 +114,6 @@
         <option value="$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/CountDownLatchDemo.java" />
         <option value="$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/SpringEnum.java" />
         <option value="$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/CountDownLatchHomework.java" />
-        <option value="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/BlockingQueueDemo.java" />
         <option value="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/SynchronousQueueDemo.java" />
         <option value="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/ProdConsumer_TraditionDemo.java" />
         <option value="$PROJECT_DIR$/src/com/ymd/face/AlterNumLock/CyclicBarrierDemo.java" />
@@ -105,12 +130,14 @@
         <option value="$PROJECT_DIR$/src/com/ymd/face/ArrayList/ContainerNotSafe01.java" />
         <option value="$PROJECT_DIR$/src/com/ymd/face/Lock/ReenterLockDemo.java" />
         <option value="$PROJECT_DIR$/src/com/ymd/face/Lock/SpinLockDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/BlockingQueueDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/ProdConsumerBlockQueueDemo.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="width" value="1198" />
+    <option name="width" value="1235" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -142,22 +169,7 @@
               <item name="facecontent" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="face" type="462c0819:PsiDirectoryNode" />
-              <item name="ArrayList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="facecontent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="facecontent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="face" type="462c0819:PsiDirectoryNode" />
-              <item name="Lock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="facecontent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="facecontent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="face" type="462c0819:PsiDirectoryNode" />
-              <item name="Lock" type="462c0819:PsiDirectoryNode" />
-              <item name="ReadWriteLock" type="462c0819:PsiDirectoryNode" />
+              <item name="BlockingQueue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,15 +204,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SpinLockDemo">
-    <configuration name="ContainerNotSafe01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ProdConsumerBlockQueueDemo">
+    <configuration name="BlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.ymd.face.ArrayList.ContainerNotSafe01" />
+      <option name="MAIN_CLASS_NAME" value="com.ymd.face.BlockingQueue.BlockingQueueDemo" />
       <module name="facecontent" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ymd.face.ArrayList.*" />
+          <option name="PATTERN" value="com.ymd.face.BlockingQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,14 +220,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainerNotSafeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ProdConsumerBlockQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.ymd.face.ArrayList.ContainerNotSafeDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.ymd.face.BlockingQueue.ProdConsumerBlockQueueDemo" />
       <module name="facecontent" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ymd.face.ArrayList.*" />
+          <option name="PATTERN" value="com.ymd.face.BlockingQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,14 +235,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapNotSafeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ReadWriteDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.ymd.face.ArrayList.MapNotSafeDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.ymd.face.Lock.ReadWriteLock.ReadWriteDemo" />
       <module name="facecontent" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ymd.face.ArrayList.*" />
+          <option name="PATTERN" value="com.ymd.face.Lock.ReadWriteLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -303,11 +315,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProdConsumerBlockQueueDemo" />
+        <item itemvalue="Application.BlockingQueueDemo" />
+        <item itemvalue="Application.ReadWriteDemo" />
         <item itemvalue="Application.SpinLockDemo" />
         <item itemvalue="Application.ReenterLockDemo" />
-        <item itemvalue="Application.ContainerNotSafe01" />
-        <item itemvalue="Application.MapNotSafeDemo" />
-        <item itemvalue="Application.ContainerNotSafeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -335,12 +347,12 @@
       <workItem from="1574647979877" duration="14000" />
       <workItem from="1574695345814" duration="4685000" />
       <workItem from="1574730267711" duration="6207000" />
-      <workItem from="1574742513286" duration="6310000" />
+      <workItem from="1574742513286" duration="9173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32777000" />
+    <option name="totallyTimeSpent" value="35640000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -352,17 +364,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="958" height="830" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499002" weight="0.38666666" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499002" weight="0.15817694" />
       <window_info id="Structure" order="1" sideWeight="0.500998" side_tool="true" weight="0.38739946" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20630373" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3796034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -371,7 +382,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5708215" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.26912183" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3286119" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -383,14 +394,14 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499002" visible="true" weight="0.38666666" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499002" visible="true" weight="0.15817694" />
       <window_info id="Structure" order="1" sideWeight="0.500998" side_tool="true" weight="0.38739946" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20630373" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3796034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -399,7 +410,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5708215" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.26912183" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3286119" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -451,16 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/BlockingQueueDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -689,18 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ymd/face/Lock/ReadWriteLock/ReadWriteDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1171#1172#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ymd/face/Lock/ReenterLockDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -715,10 +704,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ymd/face/Lock/SpinLockDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+        <state relative-caret-position="208">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ymd/face/Lock/ReadWriteLock/ReadWriteDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="60" column="43" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1198#1199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/BlockingQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="54" column="69" selection-start-line="54" selection-start-column="69" selection-end-line="54" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/ProdConsumerBlockQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1778#1779#0" expanded="true" />
+            <element signature="e#1810#1811#0" expanded="true" />
           </folding>
         </state>
       </provider>

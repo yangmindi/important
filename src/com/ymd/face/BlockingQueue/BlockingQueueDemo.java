@@ -50,5 +50,8 @@ public class BlockingQueueDemo {
         System.out.println(blockingQueue.offer("a", 2L, TimeUnit.SECONDS));
 
         System.out.println(blockingQueue.poll(2L, TimeUnit.SECONDS));
+        System.out.println(blockingQueue.poll(2L, TimeUnit.SECONDS));
+        System.out.println(blockingQueue.poll(2L, TimeUnit.SECONDS));
+        System.out.println(blockingQueue.poll(2L, TimeUnit.SECONDS));
     }
 }
