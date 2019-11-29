@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9be29cb-8a17-436a-8491-c74230f2e47b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ymd/face/Callable/DeadLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ymd/juc_2019/SaleTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ymd/juc_2019/ThreadWaitNotifyDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/facecontent/com/ymd/face/Executor/MyThreadPoolDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/facecontent/com/ymd/face/Executor/MyThreadPoolDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ymd/face/Executor/MyThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ymd/face/Executor/MyThreadPoolDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,11 +39,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ymd/face/Callable/DeadLockDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+            <state relative-caret-position="702">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ymd/juc_2019/SaleTicket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ymd/juc_2019/ThreadWaitNotifyDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1872">
+              <caret line="78" column="41" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,7 +76,7 @@
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/concurrent/Executors.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="4524">
-              <caret line="215" column="35" lean-forward="true" selection-start-line="215" selection-start-column="35" selection-end-line="215" selection-end-column="35" />
+              <caret line="215" column="35" selection-start-line="215" selection-start-column="35" selection-end-line="215" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -158,13 +181,15 @@
         <option value="$PROJECT_DIR$/src/com/ymd/face/BlockingQueue/ProdConsumerBlockQueueDemo01.java" />
         <option value="$PROJECT_DIR$/src/com/ymd/face/Executor/MyThreadPoolDemo.java" />
         <option value="$PROJECT_DIR$/src/com/ymd/face/Callable/DeadLockDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/ymd/juc_2019/SaleTicket.java" />
+        <option value="$PROJECT_DIR$/src/com/ymd/juc_2019/ThreadWaitNotifyDemo.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1262" />
-    <option name="height" value="1038" />
+    <option name="x" value="-10" />
+    <option name="width" value="1264" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -172,6 +197,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,20 +214,19 @@
               <item name="facecontent" type="b2602c69:ProjectViewProjectNode" />
               <item name="facecontent" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="face" type="462c0819:PsiDirectoryNode" />
+              <item name="ymd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="facecontent" type="b2602c69:ProjectViewProjectNode" />
               <item name="facecontent" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="face" type="462c0819:PsiDirectoryNode" />
-              <item name="Callable" type="462c0819:PsiDirectoryNode" />
+              <item name="ymd" type="462c0819:PsiDirectoryNode" />
+              <item name="juc_2019" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -230,22 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeadLockDemo">
-    <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.ymd.face.Callable.CallableDemo" />
-      <module name="facecontent" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ymd.face.Callable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ThreadWaitNotifyDemo">
     <configuration name="DeadLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="MAIN_CLASS_NAME" value="com.ymd.face.Callable.DeadLockDemo" />
@@ -276,9 +286,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdConsumerBlockQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ProdConsumerBlockQueueDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.ymd.face.BlockingQueue.ProdConsumerBlockQueueDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.ymd.face.BlockingQueue.ProdConsumerBlockQueueDemo01" />
       <module name="facecontent" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -291,14 +301,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdConsumerBlockQueueDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SaleTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.ymd.face.BlockingQueue.ProdConsumerBlockQueueDemo01" />
+      <option name="MAIN_CLASS_NAME" value="com.ymd.juc_2019.SaleTicket" />
       <module name="facecontent" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ymd.face.BlockingQueue.*" />
+          <option name="PATTERN" value="com.ymd.juc_2019.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadWaitNotifyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="MAIN_CLASS_NAME" value="com.ymd.juc_2019.ThreadWaitNotifyDemo" />
+      <module name="facecontent" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ymd.juc_2019.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -341,11 +366,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadWaitNotifyDemo" />
+        <item itemvalue="Application.SaleTicket" />
         <item itemvalue="Application.DeadLockDemo" />
         <item itemvalue="Application.MyThreadPoolDemo" />
         <item itemvalue="Application.ProdConsumerBlockQueueDemo01" />
-        <item itemvalue="Application.ProdConsumerBlockQueueDemo" />
-        <item itemvalue="Application.CallableDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -375,12 +400,14 @@
       <workItem from="1574730267711" duration="6207000" />
       <workItem from="1574742513286" duration="13460000" />
       <workItem from="1574820497240" duration="4035000" />
-      <workItem from="1574904374217" duration="308000" />
+      <workItem from="1574904374217" duration="1972000" />
+      <workItem from="1574925559262" duration="603000" />
+      <workItem from="1575005820238" duration="1021000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44270000" />
+    <option name="totallyTimeSpent" value="47558000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -392,17 +419,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="1009" height="830" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="0" width="1011" height="832" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499002" weight="0.41009465" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499002" weight="0.409234" />
       <window_info id="Structure" order="1" sideWeight="0.500998" side_tool="true" weight="0.38739946" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.18413597" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20142858" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -411,7 +437,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4469914" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.85530084" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3286119" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -423,14 +449,14 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499002" visible="true" weight="0.41009465" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499002" visible="true" weight="0.409234" />
       <window_info id="Structure" order="1" sideWeight="0.500998" side_tool="true" weight="0.38739946" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.18413597" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27507162" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -439,7 +465,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4469914" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.85530084" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3286119" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -780,10 +806,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ymd/face/Executor/MyThreadPoolDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ymd/face/Callable/DeadLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/concurrent/Executors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4524">
-          <caret line="215" column="35" lean-forward="true" selection-start-line="215" selection-start-column="35" selection-end-line="215" selection-end-column="35" />
+          <caret line="215" column="35" selection-start-line="215" selection-start-column="35" selection-end-line="215" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -825,17 +865,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ymd/face/Executor/MyThreadPoolDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ymd/juc_2019/SaleTicket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+        <state relative-caret-position="595">
+          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ymd/face/Callable/DeadLockDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ymd/juc_2019/ThreadWaitNotifyDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        <state relative-caret-position="1872">
+          <caret line="78" column="41" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
