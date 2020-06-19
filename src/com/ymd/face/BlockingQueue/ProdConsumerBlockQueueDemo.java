@@ -38,7 +38,7 @@ class  MyResource{
 //            System.out.println();
 //            System.out.println();
             if(result==null || result.equalsIgnoreCase("")){
-                FLAG = false;
+//                FLAG = false;
                 System.out.println(Thread.currentThread().getName()+"\t 超过2秒没有取到蛋糕，消费退出");
                 return ;
             }

@@ -15,7 +15,7 @@ public class MyThreadPoolDemo {
 
         try{
             //模拟10个用户来办理业务，每个用户就是一个来自外部的请求线程
-            for(int i=1; i<=10; i++){
+            for(int i=1; i<=30; i++){
                 threadPool.execute(()->{
                     System.out.println(Thread.currentThread().getName()+"\t 办理业务");
                 });

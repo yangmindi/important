@@ -11,28 +11,30 @@ class ShareData {//资源类
 
     public void increment() throws InterruptedException {
         lock.lock();
-
-        while (number != 0) {
-            condition.await();
+        try {
+            while (number != 0) {
+                condition.await();
+            }
+            number++;
+            System.out.println(Thread.currentThread().getName() + "\t" + number);
+            condition.signal();
+        }finally {
+            lock.unlock();
         }
-        number++;
-        System.out.println(Thread.currentThread().getName() + "\t" + number);
-        condition.signalAll();
-
-        lock.unlock();
     }
 
     public void decrement() throws InterruptedException {
         lock.lock();
-
-        while (number == 0) {
-            condition.await();
+        try{
+            while (number == 0) {
+                condition.await();
+            }
+            number--;
+            System.out.println(Thread.currentThread().getName()+"\t"+number);
+            condition.signalAll();
+        }finally {
+            lock.unlock();
         }
-        number--;
-        System.out.println(Thread.currentThread().getName()+"\t"+number);
-        condition.signalAll();
-
-        lock.unlock();
     }
 }
 

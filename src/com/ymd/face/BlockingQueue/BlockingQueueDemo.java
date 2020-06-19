@@ -11,8 +11,8 @@ public class BlockingQueueDemo {
 //        System.out.println(blockingQueue.add("a"));
 //        System.out.println(blockingQueue.add("b"));
 //        System.out.println(blockingQueue.add("c"));
-//
-////        System.out.println(blockingQueue.add("x"));
+
+//        System.out.println(blockingQueue.add("x"));
 //        System.out.println(blockingQueue.element());
 //
 //        System.out.println(blockingQueue.remove());
@@ -25,7 +25,7 @@ public class BlockingQueueDemo {
 //        System.out.println(blockingQueue.offer("b"));
 //        System.out.println(blockingQueue.offer("c"));
 //
-////        System.out.println(blockingQueue.offer("x"));
+//        System.out.println(blockingQueue.offer("x"));
 //        System.out.println(blockingQueue.peek());
 //
 //        System.out.println(blockingQueue.poll());
@@ -37,18 +37,18 @@ public class BlockingQueueDemo {
 //        blockingQueue.put("a");
 //        blockingQueue.put("b");
 //        blockingQueue.put("c");
-////        blockingQueue.put("x");
+//        blockingQueue.put("x");
+
+//        System.out.println(blockingQueue.take());
+//        System.out.println(blockingQueue.take());
+//        System.out.println(blockingQueue.take());
+//        System.out.println(blockingQueue.take());
+
+        System.out.println(blockingQueue.offer("a", 2L, TimeUnit.SECONDS));
+        System.out.println(blockingQueue.offer("a", 2L, TimeUnit.SECONDS));
+        System.out.println(blockingQueue.offer("a", 2L, TimeUnit.SECONDS));
+//        System.out.println(blockingQueue.offer("a", 2L, TimeUnit.SECONDS));
 //
-//        blockingQueue.take();
-//        blockingQueue.take();
-//        blockingQueue.take();
-//        blockingQueue.take();
-
-        System.out.println(blockingQueue.offer("a", 2L, TimeUnit.SECONDS));
-        System.out.println(blockingQueue.offer("a", 2L, TimeUnit.SECONDS));
-        System.out.println(blockingQueue.offer("a", 2L, TimeUnit.SECONDS));
-        System.out.println(blockingQueue.offer("a", 2L, TimeUnit.SECONDS));
-
         System.out.println(blockingQueue.poll(2L, TimeUnit.SECONDS));
         System.out.println(blockingQueue.poll(2L, TimeUnit.SECONDS));
         System.out.println(blockingQueue.poll(2L, TimeUnit.SECONDS));

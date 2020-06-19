@@ -80,6 +80,12 @@ public class SyncAndReentrantLockDemo {
     public static void main(String[] args) {
         MyCache myCache = new MyCache();
 
+        synchronized (new Object()){
+
+        }
+
+        Lock lock = new ReentrantLock();
+
         for(int i=1; i<=10; i++){
             new Thread(()->{
                 myCache.print5();
